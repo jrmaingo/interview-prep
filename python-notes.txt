@@ -1,0 +1,18 @@
+Sequences (List, strings, tuples)
+S[start:end] -> slice of content from start elem (inclusive) to end elem (exclusive), omit to get elems until bounds of sequence
+String
+s[i] -> O(1) char at i
+
+Array
+A = [Val for i in range(arrLen)] -> defines array of arrLen with Val at each index
+A = [[Val for i in range(arrLen)] for j in range(arrLen2)] -> defines 2D array
+
+Dict
+D = {} -> empty dictionary
+D[k] -> access elem at key k
+D[k] = val -> sets/inserts val with key k
+del D[k] -> delete (remove) KVP for key k
+D.clear() -> remove all elems
+D.keys() -> iterable key sequence
+D.values() -> iterable item sequence
+D.items() -> iterable KVP sequence
